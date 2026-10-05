@@ -90,6 +90,8 @@ def load_and_clean_call_logs(file_path):
                 )
                     
     conn.commit() #save database changes
+    # Adding this comment to see if it will let me submit because it says that my changes are not committed 
+
 
 # This function will write analytics data to testUserAnalytics.csv - average call time, and number of calls per user.
 # You must save records consisting of each userId, avgDuration, and numCalls
