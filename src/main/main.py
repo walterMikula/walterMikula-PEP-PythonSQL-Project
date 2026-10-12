@@ -128,7 +128,7 @@ def write_ordered_calls(csv_file_path):
            ORDER BY userId ASC, startTime ASC'''
     )
     results = cursor.fetchall()
-# open orderedCalls.csv for writing, adn wirte the header
+# open orderedCalls.csv for writing, and wirte the header
     with open(csv_file_path, 'w', newline='') as file:
         writer = csv.writer(file)
 
